@@ -10,8 +10,8 @@ public class AnagramCheck {
         }
 
         for (int i = 0; i < str1.length(); i++) {
-            freq[str1.charAt(i) - 'a']--;
-            freq[str2.charAt(i) - 'a']++;
+            freq[str1.charAt(i) - 'a']++;
+            freq[str2.charAt(i) - 'a']--;
         }  
 
         for(int count : freq){
