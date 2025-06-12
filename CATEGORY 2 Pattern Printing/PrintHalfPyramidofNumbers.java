@@ -1,6 +1,5 @@
 
 public class PrintHalfPyramidofNumbers {
-
     static void printHalfPyramid(int n) {
 
         for (int i = 1; i <= n; i++) {
