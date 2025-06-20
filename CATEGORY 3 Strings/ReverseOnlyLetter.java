@@ -19,7 +19,7 @@ public class ReverseOnlyLetter {
                 continue;
             }
 
-            char temp = str.charAt(s);
+            char temp =ch[s];
             ch[s] =ch[l];
             ch[l] = temp;
             s++;
