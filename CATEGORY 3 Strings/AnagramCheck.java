@@ -1,6 +1,7 @@
 
 public class AnagramCheck {
 
+    //NOte: Can also implemented using hashmap
     static boolean isAnagram(String str1, String str2) {
         boolean flag = true;
         int[] freq = new int[26];
